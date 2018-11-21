@@ -8,7 +8,6 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 //Set up Tempurature Pin
 const int tempPin = A0;
 
-
 void setup() {
  lcd.init();
  lcd.backlight();
